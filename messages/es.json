@@ -2,5 +2,10 @@
   "Metadata": {
     "title": "Portafolio de Wilmer Soto",
     "description": "Pagina del portafolio de Wilmer Soto"
+  },
+  "SidebarPhoto": { "text": "Ingeniero de Sistemas" },
+  "SidebarInfo": {
+    "age": "Edad",
+    "city": "Ciudad"
   }
 }

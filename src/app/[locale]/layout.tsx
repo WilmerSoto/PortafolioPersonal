@@ -3,15 +3,11 @@ import { inter } from "../fonts";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { getTranslations } from "next-intl/server";
-import type { Metadata, ResolvingMetadata } from "next";
-
-// const t = await getTranslations("Metadata");
-
-// export const metadata: Metadata = {
-//   title: t(),
-//   description: "Pagina del portafolio de Wilmer Soto",
-// };
+import {
+  getMessages,
+  getTranslations,
+  setRequestLocale,
+} from "next-intl/server";
 
 type MetadataProps = {
   params: Promise<{ locale: string }>;
@@ -33,18 +29,20 @@ type Props = {
 
 export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
+  const messages = await getMessages();
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
   return (
     <html lang={locale}>
-      <NextIntlClientProvider>
-        <body
-          className={`${inter.className} flex min-h-screen flex-col antialiased`}
-        >
+      <body
+        className={`${inter.className} flex min-h-screen flex-col antialiased`}
+      >
+        <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
-        </body>
-      </NextIntlClientProvider>
+        </NextIntlClientProvider>
+      </body>
     </html>
   );
 }
