@@ -42,10 +42,22 @@
       }
     },
     "Education": {
-      "title": "",
-      "university": "",
-      "internship": "",
-      "details": ""
+      "title": "Educación",
+      "headerDescription": "Mi trayectoria educativa ha sido clave para establecer una base sólida en el ámbito de la ingeniería, preparándome con las herramientas teóricas para enfrentar los desafíos del mundo real.",
+      "items": {
+        "udea": {
+          "institution": "Universidad de Antioquia",
+          "date": "2020-2025",
+          "degree": "Ingeniero de Sistemas",
+          "description": "Profundizando en los fundamentos de la informática, algoritmos, estructuras de datos, y el desarrollo de sistemas complejos."
+        },
+        "nextjs": {
+          "institution": "Curso Oficial NextJS",
+          "date": "2025",
+          "degree": "React y App Router NextJS",
+          "description": "Dominio de los principios esenciales de React para construir interfaces de usuario dinámicas, complementado con la arquitectura moderna y capacidades de renderizado del App Router de Next.js para aplicaciones de alto rendimiento."
+        }
+      }
     },
     "Portfolio": {
       "title": "",
