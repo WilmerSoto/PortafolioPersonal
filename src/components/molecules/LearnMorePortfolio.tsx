@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface LearnMorePortfolioProps {
   longDescription: string;
@@ -20,15 +21,16 @@ export default function LearnMorePortfolio({
   longDescription,
   githubLink,
 }: LearnMorePortfolioProps) {
+  const t = useTranslations("Main.Portfolio.button");
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button className="bg-yellow-500 text-black hover:bg-yellow-600">
-          Conoce mas.
+          {t("title")}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-full max-w-sm">
-        <DropdownMenuLabel>Informacion extra</DropdownMenuLabel>
+        <DropdownMenuLabel>{t("subtitle")}</DropdownMenuLabel>
         <DropdownMenuSeparator />
         {/* Se usa .split ya que el texto de descripcion se separa con \n. Se divide cada parrafo en un item del menu */}
         {longDescription.split("\n").map((paragraph, index) => (
@@ -41,7 +43,7 @@ export default function LearnMorePortfolio({
             rel="noopener noreferrer"
             className="text-sky-500 underline decoration-sky-500"
           >
-            Link de github
+            {t("github")}
           </Link>
         </DropdownMenuItem>
       </DropdownMenuContent>

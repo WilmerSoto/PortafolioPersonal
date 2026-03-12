@@ -60,9 +60,33 @@
       }
     },
     "Portfolio": {
-      "title": "",
-      "subtitle": "",
-      "viewMore": ""
+      "title": "My projects",
+      "description": "This section showcases a selection of my personal and academic projects, illustrating my development process and the diverse range of technologies I have implemented.",
+      "button": {
+        "title": "Learn more.",
+        "subtitle": "Extra information",
+        "github": "Github Link"
+      },
+      "items": {
+        "docManagement": {
+          "title": "Document Management and Upload",
+          "imageAlt": "View of a document management program",
+          "description": "Student document upload and management system.",
+          "longDescription": "Web application for managing and uploading course documents.\nAllows viewing personal and instructor-shared materials.\nIncludes features to download, edit, and share documents."
+        },
+        "inventory": {
+          "title": "Inventory Management",
+          "imageAlt": "View of an inventory management program",
+          "description": "Transaction management application built with Python.",
+          "longDescription": "Application for managing financial transactions. Allows tracking income, expenses, and transaction details.\nFeatures combined or filtered list views.\nIncludes functionality to export all reports to Excel."
+        },
+        "digitalTransformation": {
+          "title": "Digital Transformation Self-Assessment",
+          "imageAlt": "GitHub view of the Self-Assessment project",
+          "description": "Backend for a corporate digital transformation assessment platform.",
+          "longDescription": "System featuring user registration and a 7-part self-assessment.\nCalculates digital maturity levels based on specific industry metrics.\nGenerates visual reports and PDFs based on assessment results."
+        }
+      }
     },
     "WhyHireMe": {
       "title": "",

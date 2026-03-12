@@ -62,7 +62,31 @@
     "Portfolio": {
       "title": "Mis proyectos",
       "description": "Esta sección presenta una selección de mis proyectos personales y académicos, ilustrando mi proceso de desarrollo y la diversidad de tecnologías que he empleado.",
-      "viewMore": ""
+      "button": {
+        "title": "Conoce mas.",
+        "subtitle": "Información extra",
+        "github": "Link de Github"
+      },
+      "items": {
+        "docManagement": {
+          "title": "Gestión y carga de documentos",
+          "imageAlt": "Vista de un programa de gestión de documentos",
+          "description": "Gestión de carga de documentos de estudiantes.",
+          "longDescription": "Página web para manejar y subir documentos de cursos.\nPermite visualizar documentos propios y del profesor de la materia.\nPermite descargar, editar y compartir documentos."
+        },
+        "inventory": {
+          "title": "Gestión de inventario",
+          "imageAlt": "Vista de un programa de gestión de inventario",
+          "description": "Aplicación para manejo de transacciones. Hecha en Python.",
+          "longDescription": "Aplicación para manejo de transacciones. Permite añadir ingresos, egresos y el concepto de la transacción.\nTambién permite ver listas combinadas o separadas.\nPermite exportar a Excel todos los reportes."
+        },
+        "digitalTransformation": {
+          "title": "Autoevaluación de Transformación Digital",
+          "imageAlt": "Vista de GitHub de proyecto de Autoevaluación",
+          "description": "Backend para plataforma de autoevaluación empresarial.",
+          "longDescription": "Sistema con registro de usuarios y autoevaluación de 7 etapas.\nCalcula el nivel de madurez digital basado en métricas específicas.\nGenera reportes visuales y PDFs con los resultados obtenidos."
+        }
+      }
     },
     "WhyHireMe": {
       "title": "",
