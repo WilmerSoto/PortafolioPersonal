@@ -89,10 +89,8 @@
       }
     },
     "WhyHireMe": {
-      "title": "",
-      "item1": "",
-      "item2": "",
-      "item3": ""
+      "title": "¿Por Qué Contratarme?",
+      "description": "Más allá de mis habilidades técnicas, esta sección destaca el valor único que aporto a cada proyecto y equipo. Descubre mis cualidades clave como desarrollador y cómo mi enfoque proactivo y pensamiento integral pueden beneficiar a tu empresa."
     }
   }
 }

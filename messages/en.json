@@ -89,10 +89,8 @@
       }
     },
     "WhyHireMe": {
-      "title": "",
-      "item1": "",
-      "item2": "",
-      "item3": ""
+      "title": "Why Hire Me?",
+      "description": "Beyond my technical skills, this section highlights the unique value I bring to every project and team. Discover my key strengths as a developer and how my proactive approach and holistic thinking can benefit your company."
     }
   }
 }
