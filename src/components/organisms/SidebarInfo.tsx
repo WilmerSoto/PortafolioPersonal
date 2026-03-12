@@ -3,11 +3,11 @@ import { useTranslations } from "next-intl";
 
 // Informacion personal del sidebar. Usa el label definido anteriormente.
 export default function SidebarInfo() {
-  const t = useTranslations("SidebarInfo");
+  const t = useTranslations("Sidebar");
 
   const InfoData = [
-    { first: t("age"), second: "22" },
-    { first: t("city"), second: "Medellin" },
+    { first: t("Profile.age"), second: "22" },
+    { first: t("Profile.city"), second: "Medellin" },
     { first: "Email:", second: "wsoto04@gmail.com" },
   ];
 

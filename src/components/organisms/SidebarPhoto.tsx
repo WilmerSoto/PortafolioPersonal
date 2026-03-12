@@ -5,13 +5,13 @@ import { useTranslations } from "next-intl";
 
 // Foto inicial del sidebar. Utiliza los atomos de foto, header y texto.
 export default function SidebarPhoto() {
-  const t = useTranslations("SidebarPhoto");
+  const t = useTranslations("Sidebar");
 
   return (
     <div className="flex flex-col items-center gap-y-4">
       <PersonalPhoto className="rounded-full object-cover" />
       <Header1>Wilmer Soto Vidal</Header1>
-      <Text>{t("text")}</Text>
+      <Text className="text-sm">{t("Profile.role")}</Text>
     </div>
   );
 }

@@ -3,9 +3,20 @@
     "title": "Wilmer Soto's Portfolio",
     "description": "Portfolio page of Wilmer Soto"
   },
-  "SidebarPhoto": { "text": "Systems Engineer" },
-  "SidebarInfo": {
-    "age": "Age",
-    "city": "City"
+  "Sidebar": {
+    "Profile": {
+      "role": "Systems Engineer | Web Developer",
+      "age": "Age",
+      "city": "City"
+    },
+    "Titles": {
+      "languages": "Languages",
+      "programming": "Programming Languages",
+      "extraSkills": "Extra Skills"
+    },
+    "Languages": {
+      "spanish": "Spanish",
+      "english": "English"
+    }
   }
 }

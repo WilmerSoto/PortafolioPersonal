@@ -1,11 +1,22 @@
 {
   "Metadata": {
     "title": "Portafolio de Wilmer Soto",
-    "description": "Pagina del portafolio de Wilmer Soto"
+    "description": "Página del portafolio de Wilmer Soto"
   },
-  "SidebarPhoto": { "text": "Ingeniero de Sistemas" },
-  "SidebarInfo": {
-    "age": "Edad",
-    "city": "Ciudad"
+  "Sidebar": {
+    "Profile": {
+      "role": "Ingeniero de Sistemas | Desarrollador Web",
+      "age": "Edad",
+      "city": "Ciudad"
+    },
+    "Titles": {
+      "languages": "Idiomas",
+      "programming": "Lenguajes de programación",
+      "extraSkills": "Habilidades extras"
+    },
+    "Languages": {
+      "spanish": "Español",
+      "english": "Inglés"
+    }
   }
 }
