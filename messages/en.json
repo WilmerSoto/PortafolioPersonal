@@ -31,10 +31,15 @@
       }
     },
     "Knowledge": {
-      "title": "",
-      "frontend": "",
-      "backend": "",
-      "tools": ""
+      "title": "My Knowledge",
+      "description": "Explore a summary of my skills and the key technologies I am proficient in as a software developer.",
+      "cards": {
+        "web": "Web Development",
+        "backend": "Backend Development",
+        "db": "Databases",
+        "devops": "DevOps Tools",
+        "methodologies": "Methodologies"
+      }
     },
     "Education": {
       "title": "",

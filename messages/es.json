@@ -31,10 +31,15 @@
       }
     },
     "Knowledge": {
-      "title": "",
-      "frontend": "",
-      "backend": "",
-      "tools": ""
+      "title": "Mis conocimientos",
+      "description": "Explora aquí un resumen de mis habilidades y las tecnologías clave que domino como desarrollador de software.",
+      "cards": {
+        "web": "Desarrollo Web",
+        "backend": "Desarrollo Backend",
+        "db": "Bases de Datos",
+        "devops": "Herramientas de Desarrollo y DevOps",
+        "methodologies": "Metodologia"
+      }
     },
     "Education": {
       "title": "",
