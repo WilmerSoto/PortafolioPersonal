@@ -14,7 +14,7 @@ export default function TextIntroduction() {
           y: (chunks) => <span className="text-yellow-500">{chunks}</span>,
         })}
       </Header1>
-      <Text>{t("subtitle")}</Text>
+      <Text>{t("description")}</Text>
       <div>
         <ContactDataButton />
       </div>

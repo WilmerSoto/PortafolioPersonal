@@ -7,23 +7,6 @@ import { useTranslations } from "next-intl";
 //Seccion completa de Educacion. Utiliza el Header de Seccion y la card definida en moleculas.
 export default function EducationSection() {
   const t = useTranslations("Main.Education");
-  const EducationData = [
-    {
-      institution: "Universidad de Antioquia",
-      dateRange: "2020-2025",
-      degree: "Ingeniero de Sistemas",
-      description:
-        "Profundizando en los fundamentos de la informática, algoritmos, estructuras de datos, y el desarrollo de sistemas complejos.",
-    },
-    {
-      institution: "Curso Oficial NextJS",
-      dateRange: "2025",
-      degree: "Fundamentos de React y App Router NextJS",
-      description:
-        "Dominio de los principios esenciales de React para construir interfaces de usuario dinámicas, complementado con la arquitectura moderna y capacidades de renderizado del App Router de Next.js para aplicaciones de alto rendimiento.",
-    },
-  ];
-
   const educationKeys = ["udea", "nextjs"];
 
   return (
@@ -41,7 +24,7 @@ export default function EducationSection() {
               degree={t(`items.${entry}.degree`)}
               description={t(`items.${entry}.description`)}
             ></EducationCard>
-            {index < EducationData.length - 1 && <HorizontalDivider />}
+            {index < educationKeys.length - 1 && <HorizontalDivider />}
           </React.Fragment>
         ))}
       </div>
