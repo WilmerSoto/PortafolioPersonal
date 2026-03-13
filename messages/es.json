@@ -24,6 +24,11 @@
     "Hero": {
       "title": "Soy Wilmer Soto, <y>desarrollador</y> e <y>ingeniero de sistemas</y>.",
       "description": "Soy Wilmer Soto Vidal, egresado de Ingeniería de Sistemas de la Universidad de Antioquia con experiencia como Desarrollador Front-end, creando interfaces modernas con Next.js y Tailwind CSS. Domino lenguajes como Python, JavaScript/TypeScript, Java, HTML y CSS, y mis habilidades tambien se extienden al backend con Spring Boot, PostgreSQL, Docker y herramientas como Git, GitHub Actions y Postman.",
+      "languageSwitcher": {
+        "title": "Idioma",
+        "spanish": "Español",
+        "english": "Inglés"
+      },
       "button": {
         "title": "Mira mis datos de contacto! →",
         "subtitle": "Contacto",
