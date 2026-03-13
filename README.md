@@ -4,6 +4,8 @@
 
 > **Looking for Spanish?** You can read the Spanish version [here](./README.es.md).
 
+> **¿Buscando la version en español?** Puedes leer la version en español [aqui](./README.es.md).
+
 This project is a professional showcase of my skills and experience as a developer, designed to be modern, interactive, and fully responsive.
 
 ## Key Features

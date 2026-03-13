@@ -4,6 +4,8 @@
 
 > **¿Buscas la versión en inglés?** Puedes leer el README en inglés [aquí](./README.md).
 
+> **Looking for English?** You can read the English version [here](./README.md).
+
 Este proyecto es una muestra profesional de mis habilidades y experiencia como desarrollador, diseñado para ser moderno, interactivo y totalmente responsivo.
 
 ## Características Principales
