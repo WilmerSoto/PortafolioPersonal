@@ -7,8 +7,11 @@ import {
 import { Button } from "@/components/ui/button";
 import { MenuIcon } from "lucide-react";
 import SidebarContent from "@/components/organisms/SidebarContent";
+import { useTranslations } from "next-intl";
 
 export default function SheetSidebar() {
+  const t = useTranslations("Sidebar");
+
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -18,7 +21,7 @@ export default function SheetSidebar() {
       </SheetTrigger>
       <SheetContent side="left" className="overflow-y-auto px-5">
         <SheetTitle className="flex items-center justify-center text-center">
-          Informacion
+          {t("Titles.mobileSheet")}
         </SheetTitle>
         <SidebarContent />
       </SheetContent>

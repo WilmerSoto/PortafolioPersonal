@@ -1,16 +1,39 @@
 import SectionHeader from "@/components/molecules/SectionHeader";
-import WhyHireMeCarousel from "@/components/organisms/WhyHireMeCarousel";
+import { CheckCircle, Lightbulb, Network } from "lucide-react";
+import { useTranslations } from "next-intl";
+import FeatureCard from "@/components/molecules/FeatureCard";
 
-//Seccion completa de ¿Por Qué Contratarme?. Utiliza el Header de Seccion y el carrousel definido.
+const whyHireMeData = [
+  { id: "problemSolving", icon: Lightbulb },
+  { id: "comprehensive", icon: Network },
+  { id: "quality", icon: CheckCircle },
+];
+//Seccion completa de ¿Por Qué Contratarme?. Utiliza el Header de Seccion y la card generica feature.
 export default function WhyHireMeSection() {
+  const t = useTranslations("Main.WhyHireMe");
   return (
     <div className="flex flex-col gap-y-4">
       <SectionHeader
-        title="¿Por Qué Contratarme?"
-        description="Más allá de mis habilidades técnicas, esta sección destaca el valor único que aporto a cada proyecto y equipo. Descubre mis cualidades clave como desarrollador y cómo mi enfoque proactivo y pensamiento integral pueden beneficiar a tu empresa."
+        title={t("title")}
+        description={t("description")}
       ></SectionHeader>
-      <div className="flex items-center justify-center pr-5 pl-5 align-middle">
-        <WhyHireMeCarousel />
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
+        {whyHireMeData.map((card) => (
+          <FeatureCard
+            key={card.id}
+            Icon={card.icon}
+            title={t(`cards.${card.id}.title`)}
+            description={
+              <ul className="list-inside list-disc space-y-2 text-sm text-gray-700">
+                {t
+                  .raw(`cards.${card.id}.items`)
+                  .map((entry: string, index: number) => (
+                    <li key={index}>{entry}</li>
+                  ))}
+              </ul>
+            }
+          />
+        ))}
       </div>
     </div>
   );

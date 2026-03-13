@@ -1,5 +1,5 @@
 import TextIntroduction from "@/components/molecules/TextIntroduction";
-import PersonalPhoto from "../atoms/PersonalPhoto";
+import PersonalPhoto from "@/components/atoms/PersonalPhoto";
 
 //Seccion completa de Introduccion. Utiliza el texto definido en moleculas y la foto personal en atomos.
 export default function HeroSection() {

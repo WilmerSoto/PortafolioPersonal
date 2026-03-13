@@ -2,6 +2,7 @@ import Header1 from "@/components/atoms/Header1";
 import { Progress } from "@/components/ui/progress";
 import LabelValue from "@/components/molecules/LabelValue";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 const ProgrammingLanguagesData = [
   {
@@ -33,9 +34,11 @@ const ProgrammingLanguagesData = [
 
 //Seccion del sidebar para los lenguajes de programacion. Utiliza el label definido anteriormente.
 export default function SidebarProgramming() {
+  const t = useTranslations("Sidebar");
+
   return (
     <div className="flex flex-col gap-y-2">
-      <Header1 className="text-base">Lenguajes de programacion</Header1>
+      <Header1 className="text-base">{t("Titles.programming")}</Header1>
       {ProgrammingLanguagesData.map((entry, index) => (
         <React.Fragment key={index}>
           <LabelValue

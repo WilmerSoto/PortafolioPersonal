@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "Portafolio de Wilmer Soto",
+    "description": "Página del portafolio de Wilmer Soto"
+  },
+  "Sidebar": {
+    "Profile": {
+      "role": "Ingeniero de Sistemas | Desarrollador Web",
+      "age": "Edad",
+      "city": "Ciudad",
+      "imageAlt": "Foto de perfil de Wilmer Soto Vidal"
+    },
+    "Titles": {
+      "languages": "Idiomas",
+      "programming": "Lenguajes de programación",
+      "extraSkills": "Habilidades extras",
+      "mobileSheet": "Acerca de mi"
+    },
+    "Languages": {
+      "spanish": "Español",
+      "english": "Inglés"
+    }
+  },
+  "Main": {
+    "Hero": {
+      "title": "Soy Wilmer Soto, <y>desarrollador</y> e <y>ingeniero de sistemas</y>.",
+      "description": "Soy Wilmer Soto Vidal, egresado de Ingeniería de Sistemas de la Universidad de Antioquia con experiencia como Desarrollador Front-end, creando interfaces modernas con Next.js y Tailwind CSS. Domino lenguajes como Python, JavaScript/TypeScript, Java, HTML y CSS, y mis habilidades tambien se extienden al backend con Spring Boot, PostgreSQL, Docker y herramientas como Git, GitHub Actions y Postman.",
+      "languageSwitcher": {
+        "title": "Idioma",
+        "spanish": "Español",
+        "english": "Inglés"
+      },
+      "button": {
+        "title": "Mira mis datos de contacto! →",
+        "subtitle": "Contacto",
+        "email": "Enviar email"
+      }
+    },
+    "Knowledge": {
+      "title": "Mis conocimientos",
+      "description": "Explora aquí un resumen de mis habilidades y las tecnologías clave que domino como desarrollador de software.",
+      "cards": {
+        "web": "Desarrollo Web",
+        "backend": "Desarrollo Backend",
+        "db": "Bases de Datos",
+        "devops": "Herramientas de Desarrollo y DevOps",
+        "methodologies": "Metodologia"
+      }
+    },
+    "Education": {
+      "title": "Educación",
+      "headerDescription": "Mi trayectoria educativa ha sido clave para establecer una base sólida en el ámbito de la ingeniería, preparándome con las herramientas teóricas para enfrentar los desafíos del mundo real.",
+      "items": {
+        "udea": {
+          "institution": "Universidad de Antioquia",
+          "date": "2020-2025",
+          "degree": "Ingeniero de Sistemas",
+          "description": "Profundizando en los fundamentos de la informática, algoritmos, estructuras de datos, y el desarrollo de sistemas complejos."
+        },
+        "nextjs": {
+          "institution": "Curso Oficial NextJS",
+          "date": "2025",
+          "degree": "React y App Router NextJS",
+          "description": "Dominio de los principios esenciales de React para construir interfaces de usuario dinámicas, complementado con la arquitectura moderna y capacidades de renderizado del App Router de Next.js para aplicaciones de alto rendimiento."
+        }
+      }
+    },
+    "Portfolio": {
+      "title": "Mis proyectos",
+      "description": "Esta sección presenta una selección de mis proyectos personales y académicos, ilustrando mi proceso de desarrollo y la diversidad de tecnologías que he empleado.",
+      "button": {
+        "title": "Conoce mas.",
+        "subtitle": "Información extra",
+        "github": "Link de Github"
+      },
+      "items": {
+        "docManagement": {
+          "title": "Gestión y carga de documentos",
+          "imageAlt": "Vista de un programa de gestión de documentos",
+          "description": "Gestión de carga de documentos de estudiantes.",
+          "longDescription": "Página web para manejar y subir documentos de cursos.\nPermite visualizar documentos propios y del profesor de la materia.\nPermite descargar, editar y compartir documentos."
+        },
+        "inventory": {
+          "title": "Gestión de inventario",
+          "imageAlt": "Vista de un programa de gestión de inventario",
+          "description": "Aplicación para manejo de transacciones. Hecha en Python.",
+          "longDescription": "Aplicación para manejo de transacciones. Permite añadir ingresos, egresos y el concepto de la transacción.\nTambién permite ver listas combinadas o separadas.\nPermite exportar a Excel todos los reportes."
+        },
+        "digitalTransformation": {
+          "title": "Autoevaluación de Transformación Digital",
+          "imageAlt": "Vista de GitHub de proyecto de Autoevaluación",
+          "description": "Backend para plataforma de autoevaluación empresarial.",
+          "longDescription": "Sistema con registro de usuarios y autoevaluación de 7 etapas.\nCalcula el nivel de madurez digital basado en métricas específicas.\nGenera reportes visuales y PDFs con los resultados obtenidos."
+        }
+      }
+    },
+    "WhyHireMe": {
+      "title": "¿Por Qué Contratarme?",
+      "description": "Más allá de mis habilidades técnicas, esta sección destaca el valor único que aporto a cada proyecto y equipo. Descubre mis cualidades clave como desarrollador y cómo mi enfoque proactivo y pensamiento integral pueden beneficiar a tu empresa.",
+      "cards": {
+        "problemSolving": {
+          "title": "Resolución de Problemas y Autonomía",
+          "items": [
+            "Abordo desafíos con mentalidad analítica y proactiva.",
+            "Busco soluciones innovadoras y eficientes.",
+            "Propongo mejoras sin esperar instrucciones externas."
+          ]
+        },
+        "comprehensive": {
+          "title": "Visión Integral y Adaptabilidad",
+          "items": [
+            "Comprensión de extremo a extremo del software gracias a mi formación en Ingeniería.",
+            "Dominio del ciclo de vida completo (Frontend, Backend y DB).",
+            "Rápida adaptación a nuevos entornos y arquitecturas modernas."
+          ]
+        },
+        "quality": {
+          "title": "Calidad Técnica y Colaboración",
+          "items": [
+            "Entrega de código limpio, documentado y escalable.",
+            "Comunicación efectiva en equipos multidisciplinarios.",
+            "Enfoque en la excelencia y el rendimiento colectivo."
+          ]
+        }
+      }
+    }
+  }
+}

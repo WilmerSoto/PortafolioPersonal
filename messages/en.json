@@ -1,0 +1,128 @@
+{
+  "Metadata": {
+    "title": "Wilmer Soto's Portfolio",
+    "description": "Portfolio page of Wilmer Soto"
+  },
+  "Sidebar": {
+    "Profile": {
+      "role": "Systems Engineer | Web Developer",
+      "age": "Age",
+      "city": "City",
+      "imageAlt": "Profile picture of Wilmer Soto Vidal"
+    },
+    "Titles": {
+      "languages": "Languages",
+      "programming": "Programming Languages",
+      "extraSkills": "Extra Skills",
+      "mobileSheet": "About me"
+    },
+    "Languages": {
+      "spanish": "Spanish",
+      "english": "English"
+    }
+  },
+  "Main": {
+    "Hero": {
+      "title": "I am Wilmer Soto, <y>developer</y> and <y>systems engineer</y>.",
+      "description": "I am Wilmer Soto Vidal, a Systems Engineering graduate from the Universidad de Antioquia with experience as a Front-end Developer, creating modern interfaces with Next.js and Tailwind CSS. I am proficient in languages such as Python, JavaScript/TypeScript, Java, HTML, and CSS, and my skills also extend to the backend with Spring Boot, PostgreSQL, Docker, and tools like Git, GitHub Actions, and Postman.",
+      "languageSwitcher": {
+        "title": "Language",
+        "spanish": "Spanish",
+        "english": "English"
+      },
+      "button": {
+        "title": "Check out my contact info! →",
+        "subtitle": "Info",
+        "email": "Send email"
+      }
+    },
+    "Knowledge": {
+      "title": "My Knowledge",
+      "description": "Explore a summary of my skills and the key technologies I am proficient in as a software developer.",
+      "cards": {
+        "web": "Web Development",
+        "backend": "Backend Development",
+        "db": "Databases",
+        "devops": "DevOps Tools",
+        "methodologies": "Methodologies"
+      }
+    },
+    "Education": {
+      "title": "Education",
+      "headerDescription": "My educational background has been key to establishing a solid foundation in engineering, preparing me with theoretical tools to face real-world challenges.",
+      "items": {
+        "udea": {
+          "institution": "Universidad de Antioquia",
+          "date": "2020-2025",
+          "degree": "Systems Engineer",
+          "description": "Deepening my knowledge in computer science fundamentals, algorithms, data structures, and the development of complex systems."
+        },
+        "nextjs": {
+          "institution": "Official NextJS Course",
+          "date": "2025",
+          "degree": "React and NextJS App Router",
+          "description": "Mastering essential React principles to build dynamic user interfaces, complemented by Next.js modern architecture and rendering capabilities for high-performance applications."
+        }
+      }
+    },
+    "Portfolio": {
+      "title": "My Projects",
+      "description": "This section showcases a selection of my personal and academic projects, illustrating my development process and the diverse range of technologies I have implemented.",
+      "button": {
+        "title": "Learn more.",
+        "subtitle": "Extra information",
+        "github": "Github Link"
+      },
+      "items": {
+        "docManagement": {
+          "title": "Document Management and Upload",
+          "imageAlt": "View of a document management program",
+          "description": "Student document upload and management system.",
+          "longDescription": "Web application for managing and uploading course documents.\nAllows viewing personal and instructor-shared materials.\nIncludes features to download, edit, and share documents."
+        },
+        "inventory": {
+          "title": "Inventory Management",
+          "imageAlt": "View of an inventory management program",
+          "description": "Transaction management application built with Python.",
+          "longDescription": "Application for managing financial transactions. Allows tracking income, expenses, and transaction details.\nFeatures combined or filtered list views.\nIncludes functionality to export all reports to Excel."
+        },
+        "digitalTransformation": {
+          "title": "Digital Transformation Self-Assessment",
+          "imageAlt": "GitHub view of the Self-Assessment project",
+          "description": "Backend for a corporate digital transformation assessment platform.",
+          "longDescription": "System featuring user registration and a 7-part self-assessment.\nCalculates digital maturity levels based on specific industry metrics.\nGenerates visual reports and PDFs based on assessment results."
+        }
+      }
+    },
+    "WhyHireMe": {
+      "title": "Why Should You Hire Me?",
+      "description": "Beyond my technical skills, this section highlights the unique value I bring to every project and team. Discover my key strengths as a developer and how my proactive approach and holistic thinking can benefit your company.",
+      "cards": {
+        "problemSolving": {
+          "title": "Problem Solving & Autonomy",
+          "items": [
+            "Approach challenges with an analytical and proactive mindset.",
+            "Seek innovative and efficient solutions for technical obstacles.",
+            "Propose improvements actively without requiring external instructions."
+          ]
+        },
+        "comprehensive": {
+          "title": "End-to-End Vision & Adaptability",
+          "items": [
+            "Comprehensive software understanding backed by a Systems Engineering background.",
+            "Proficiency across the full development lifecycle (Frontend, Backend, & DB).",
+            "Rapid adaptation to new environments and modern architectures."
+          ]
+        },
+        "quality": {
+          "title": "Technical Quality & Collaboration",
+          "items": [
+            "Deliver clean, well-documented, and scalable code.",
+            "Effective communication within multidisciplinary teams.",
+            "Focus on excellence and collective performance."
+          ]
+        }
+      }
+    }
+  }
+}
