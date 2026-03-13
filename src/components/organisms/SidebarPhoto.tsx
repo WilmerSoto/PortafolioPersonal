@@ -11,7 +11,7 @@ export default function SidebarPhoto() {
     <div className="flex flex-col items-center gap-y-4">
       <PersonalPhoto className="rounded-full object-cover" />
       <Header1>Wilmer Soto Vidal</Header1>
-      <Text className="text-sm">{t("Profile.role")}</Text>
+      <Text className="text-base sm:text-sm">{t("Profile.role")}</Text>
     </div>
   );
 }

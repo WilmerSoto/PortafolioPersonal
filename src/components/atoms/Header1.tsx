@@ -8,7 +8,7 @@ export default function Header1({
   className?: string;
 }) {
   return (
-    <h1 className={cn("text-sm font-semibold sm:text-lg", className)}>
+    <h1 className={cn("text-lg font-semibold sm:text-xl", className)}>
       {children}
     </h1>
   );
