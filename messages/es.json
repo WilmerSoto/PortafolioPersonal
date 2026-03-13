@@ -90,7 +90,33 @@
     },
     "WhyHireMe": {
       "title": "¿Por Qué Contratarme?",
-      "description": "Más allá de mis habilidades técnicas, esta sección destaca el valor único que aporto a cada proyecto y equipo. Descubre mis cualidades clave como desarrollador y cómo mi enfoque proactivo y pensamiento integral pueden beneficiar a tu empresa."
+      "description": "Más allá de mis habilidades técnicas, esta sección destaca el valor único que aporto a cada proyecto y equipo. Descubre mis cualidades clave como desarrollador y cómo mi enfoque proactivo y pensamiento integral pueden beneficiar a tu empresa.",
+      "cards": {
+        "problemSolving": {
+          "title": "Resolución de Problemas y Autonomía",
+          "items": [
+            "Abordo desafíos con mentalidad analítica y proactiva.",
+            "Busco soluciones innovadoras y eficientes.",
+            "Propongo mejoras sin esperar instrucciones externas."
+          ]
+        },
+        "comprehensive": {
+          "title": "Visión Integral y Adaptabilidad",
+          "items": [
+            "Comprensión de extremo a extremo del software gracias a mi formación en Ingeniería.",
+            "Dominio del ciclo de vida completo (Frontend, Backend y DB).",
+            "Rápida adaptación a nuevos entornos y arquitecturas modernas."
+          ]
+        },
+        "quality": {
+          "title": "Calidad Técnica y Colaboración",
+          "items": [
+            "Entrega de código limpio, documentado y escalable.",
+            "Comunicación efectiva en equipos multidisciplinarios.",
+            "Enfoque en la excelencia y el rendimiento colectivo."
+          ]
+        }
+      }
     }
   }
 }

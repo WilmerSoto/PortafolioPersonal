@@ -90,7 +90,33 @@
     },
     "WhyHireMe": {
       "title": "Why Hire Me?",
-      "description": "Beyond my technical skills, this section highlights the unique value I bring to every project and team. Discover my key strengths as a developer and how my proactive approach and holistic thinking can benefit your company."
+      "description": "Beyond my technical skills, this section highlights the unique value I bring to every project and team. Discover my key strengths as a developer and how my proactive approach and holistic thinking can benefit your company.",
+      "cards": {
+        "problemSolving": {
+          "title": "Problem Solving & Autonomy",
+          "items": [
+            "Approach challenges with an analytical and proactive mindset.",
+            "Seek innovative and efficient solutions for technical obstacles.",
+            "Propose improvements actively without requiring external instructions."
+          ]
+        },
+        "comprehensive": {
+          "title": "End-to-End Vision & Adaptability",
+          "items": [
+            "Comprehensive software understanding backed by a Systems Engineering background.",
+            "Proficiency across the full development lifecycle (Frontend, Backend, & DB).",
+            "Rapid adaptation to new environments and modern architectures."
+          ]
+        },
+        "quality": {
+          "title": "Technical Quality & Collaboration",
+          "items": [
+            "Deliver clean, well-documented, and scalable code.",
+            "Effective communication within multidisciplinary teams.",
+            "Focus on excellence and collective performance."
+          ]
+        }
+      }
     }
   }
 }
