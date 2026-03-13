@@ -17,7 +17,7 @@ export default function WhyHireMeSection() {
         title={t("title")}
         description={t("description")}
       ></SectionHeader>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
         {whyHireMeData.map((card) => (
           <FeatureCard
             key={card.id}
