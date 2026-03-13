@@ -1,45 +1,40 @@
-# Portafolio Personal
-**Link Vercel:** [https://wilmer-soto-portafolio.vercel.app/](https://wilmer-soto-portafolio.vercel.app/)
+# Personal Portfolio
 
-Este proyecto es una muestra de mis habilidades y proyectos como desarrollador, diseñado para ser moderno, interactivo y totalmente responsive. Este proyecto es una muestra de mis habilidades y proyectos como desarrollador, diseñado para ser moderno, interactivo y totalmente responsive.
+**Live Demo:** [https://wilmer-soto-portafolio.vercel.app/en](https://wilmer-soto-portafolio.vercel.app/en)
 
-## Caracteristicas principales
+> **Looking for Spanish?** You can read the Spanish version [here](./README.es.md).
 
-- **Diseño Responsive:** Adaptabilidad total a cualquier tamaño de pantalla, asegurando una experiencia de usuario óptima en dispositivos móviles y de escritorio. La barra lateral se transforma en un menú deslizante (Sheet) en pantallas pequeñas para una navegación intuitiva.
+This project is a professional showcase of my skills and experience as a developer, designed to be modern, interactive, and fully responsive.
 
-- **Secciones Claras:** Contenido organizado en secciones lógicas para facilitar la navegación y la comprensión de mi perfil.
+## Key Features
 
-- Proyectos Interactivos: Cada proyecto se presenta con una descripción detallada y la opción de "Conoce más" para expandir información y enlaces a GitHub.
+- **Multi-language Support (i18n):** Full internationalization implemented with `next-intl`, allowing seamless switching between English and Spanish.
+- **Responsive Design:** Total adaptability to any screen size, ensuring an optimal user experience on both mobile and desktop devices. The sidebar transforms into a sliding menu (Sheet) on small screens.
+- **Interactive Projects:** Detailed project presentation with "Learn More" functionality and direct links to GitHub repositories.
+- **Technical & Soft Skills:** Dedicated sections for technical proficiency and a "Why Hire Me?" grid highlighting strategic value and problem-solving abilities.
+- **Optimized UI/UX:** Built with high-quality components and clean layouts to ensure professional readability.
 
-- **Carrusel de Proyectos:** Una forma dinámica de visualizar mis trabajos más relevantes.
-  Habilidades Detalladas: Sección dedicada a mis conocimientos en lenguajes de programación, frameworks y otras herramientas.
+## Tech Stack
 
-- **¿Por Qué Contratarme?:** Una sección dedicada a destacar mis habilidades blandas y valor diferencial, presentada en un formato de carrusel con puntos clave para facilitar la lectura.
+This project is built using:
 
-## Tecnologias utlizadas
+- **Next.js**: React framework for high-performance web development.
+- **TypeScript**: JavaScript superset with static typing.
+- **Tailwind CSS**: Utility-first CSS framework for rapid and flexible design.
+- **Shadcn UI**: Reusable UI components built on Radix UI, used for elements like the mobile menu and cards.
+- **next-intl**: Core library for site internationalization.
+- **Lucide React & React Icons**: For high-quality, consistent iconography.
 
-Este proyecto está construido con:
+## Installation and setup
 
-- **Next.js:** Framework de React para el desarrollo de aplicaciones web de alto rendimiento.
-
-- **TypeScript:** Superset de JavaScript que añade tipado estático.
-
-- **Tailwind CSS:** Framework CSS utility-first para un diseño rápido y flexible.
-
-- **Shadcn UI:** Componentes UI reutilizables construidos sobre Radix UI y estilizados con Tailwind CSS, utilizados para elementos como el Sheet (menú móvil) y los Dropdown Menus.
-
-- **React Icons y Lucide React:** Para la fácil inclusión de iconos (ej. FaInstagram, FaLinkedin).
-
-## Instalacion y uso
-
-1. Clona el repositorio
+1. Clone this repository
 
 ```bash
 git clone https://github.com/20251-Ingenieria-WEB/wilmer-soto-portafolio
 cd wilmer-soto-portafolio
 ```
 
-2. Instala las dependencias
+2. Install the dependencies
 
 ```bash
 npm install
@@ -49,7 +44,7 @@ yarn install
 pnpm install
 ```
 
-3. Ejecuta el servidor de desarrollo
+3. Run the development server
 
 ```bash
 npm run dev
@@ -59,4 +54,4 @@ yarn dev
 pnpm dev
 ```
 
-4. Abre tu navegador y visita http://localhost:3000.
+4. Open your browser and go to http://localhost:3000/en.
