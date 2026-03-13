@@ -7,7 +7,8 @@
     "Profile": {
       "role": "Systems Engineer | Web Developer",
       "age": "Age",
-      "city": "City"
+      "city": "City",
+      "imageAlt": "Profile picture of Wilmer Soto Vidal"
     },
     "Titles": {
       "languages": "Languages",
@@ -65,7 +66,7 @@
       }
     },
     "Portfolio": {
-      "title": "My projects",
+      "title": "My Projects",
       "description": "This section showcases a selection of my personal and academic projects, illustrating my development process and the diverse range of technologies I have implemented.",
       "button": {
         "title": "Learn more.",
@@ -94,7 +95,7 @@
       }
     },
     "WhyHireMe": {
-      "title": "Why Hire Me?",
+      "title": "Why Should You Hire Me?",
       "description": "Beyond my technical skills, this section highlights the unique value I bring to every project and team. Discover my key strengths as a developer and how my proactive approach and holistic thinking can benefit your company.",
       "cards": {
         "problemSolving": {

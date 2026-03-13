@@ -7,7 +7,8 @@
     "Profile": {
       "role": "Ingeniero de Sistemas | Desarrollador Web",
       "age": "Edad",
-      "city": "Ciudad"
+      "city": "Ciudad",
+      "imageAlt": "Foto de perfil de Wilmer Soto Vidal"
     },
     "Titles": {
       "languages": "Idiomas",
